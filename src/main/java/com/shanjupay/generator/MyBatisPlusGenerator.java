@@ -136,6 +136,7 @@ public class MyBatisPlusGenerator {
         strategyConfig.setInclude();
         // strategyConfig.setSuperEntityColumns("id");
 //        strategyConfig.setControllerMappingHyphenStyle(true);
+        //这个是iss53分支要解决的问题!
 
         //自动将数据库中表名为 user_info 格式的转为 UserInfo 命名
         strategyConfig.setTablePrefix(packageConfig.getModuleName() + "_");//表名映射到实体名称去掉前缀
